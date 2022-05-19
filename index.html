@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background changer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function sunday() {
+            document.getElementById("img").src = "./img/sunday.gif"
+        }
+        function monday() {
+            document.getElementById("img").src = "./img/monday.gif"
+        }
+
+        function tuesday() {
+            document.getElementById("img").src = "./img/-tuesday.gif"
+        }
+
+        function wednesday() {
+            document.getElementById("img").src = "./img/wednesday.gif"
+        }
+
+    </script>
+
+
+
+
+
+</head>
+
+<body>
+    <div class="title-container">
+        <div class="title">
+            <h1> Day Changer</h1>
+        </div>
+    </div>
+    <img src="./img/sunday.gif" id="img" class="img-season" />
+    <h2 class="ic-name"> 💖 Have a nice day!</h2>
+
+
+
+    <div class="btn-box">
+        <button class="btn-box-1" onclick="sunday()">Sunday</button>
+
+        <button class="btn-box-1" onclick="monday()"> Monday</button>
+
+        <button class="btn-box-1" onclick="tuesday()"> Tuesday</button>
+
+        <button class="btn-box-1" onclick="wednesday()"> Wesdnesday</button>
+    </div>
+
+
+
+</body>
+
+</html>
