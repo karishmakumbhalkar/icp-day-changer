@@ -1,58 +1,57 @@
-body{
-    
-background-color: #FEE140;
-background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
-
-
+body {
+    background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
 }
-.title-container{
+
+.title-container {
     background-color: peachpuff;
     height: 50px;
     filter: drop-shadow(0px 0px 10px red);
     border-radius: 50px;
     background-color: #FFE53B;
-    background-image: linear-gradient(147deg, #FFE53B 0%,  #FFE53B 74%);
-
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FFE53B 74%);
 }
-.title{
+
+.title {
     text-align: center;
-    
 }
 .img-container{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
-
 .img-season {
     background-color: peachpuff;
     height: 200px;
     width: 300px;
+
     border-radius: 0 30px 0 30px;
     filter: drop-shadow(0px 0px 10px red);
 }
 
-.img-season:hover{
-    background-color:pink;
+.img-season:hover {
+    background-color: pink;
     height: 200px;
     border-radius: 30px 0px 30px 0px;
 }
 
-.ic-name{
+.ic-name {
     text-align: center;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.btn-box{
-    display: flex;
-    margin: 40px;
-   justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.btn-box-1{
+.btn-box {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.btn-box-1 {
     height: 50px;
-    justify-content:space-around;
-    border-radius:10px 0 10px 0;
+    justify-content: space-around;
+    border-radius: 10px 0 10px 0;
     min-width: 200px;
-    font-size: 20px; 
+    font-size: 20px;
     padding: 10px;
     background-color: peachpuff;
     filter: drop-shadow(0px 0px 10px red);
@@ -60,10 +59,9 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
     background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
 }
 
-.btn-box-1:hover{
+.btn-box-1:hover {
     background-color: #FA709A;
     border-radius: 0 10px 0 10px;
     background-color: #FFE53B;
     background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
 }
-
