@@ -8,7 +8,6 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
 .title-container{
     background-color: peachpuff;
     height: 50px;
-    margin-bottom: 40px;
     filter: drop-shadow(0px 0px 10px red);
     border-radius: 50px;
     background-color: #FFE53B;
@@ -28,11 +27,7 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
     background-color: peachpuff;
     height: 200px;
     width: 300px;
-    margin-left: 100px;
     border-radius: 0 30px 0 30px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
     filter: drop-shadow(0px 0px 10px red);
 }
 
@@ -52,15 +47,7 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
    justify-content: space-around;
 }
 
-
-
-
-
-
 .btn-box-1{
-    
-    
-
     height: 50px;
     justify-content:space-around;
     border-radius:10px 0 10px 0;
@@ -70,18 +57,13 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
     background-color: peachpuff;
     filter: drop-shadow(0px 0px 10px red);
     background-color: #FA8BFF;
-background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
-
-
-
-
-
-
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
 }
+
 .btn-box-1:hover{
     background-color: #FA709A;
     border-radius: 0 10px 0 10px;
     background-color: #FFE53B;
-background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
 }
 
