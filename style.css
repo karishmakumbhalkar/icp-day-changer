@@ -23,8 +23,7 @@ body {
 .img-season {
     background-color: peachpuff;
     height: 200px;
-    width: 300px;
-
+    width:300px  ;
     border-radius: 0 30px 0 30px;
     filter: drop-shadow(0px 0px 10px red);
 }
