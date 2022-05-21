@@ -9,24 +9,28 @@
     <script>
         function sunday() {
             document.getElementById("img").src = "./img/sunday.gif"
+            document.getElementById("box").className = 'bg-sunday'
         }
         function monday() {
             document.getElementById("img").src = "./img/monday.gif"
+            document.getElementById("box").className = 'bg-monday'
         }
 
         function tuesday() {
             document.getElementById("img").src = "./img/tuesday.gif"
+            document.getElementById("box").className = 'bg-tuesday'
         }
 
         function wednesday() {
             document.getElementById("img").src = "./img/wednesday.gif"
+            document.getElementById("box").className = 'bg-wednesday'
         }
 
     </script>
 
 </head>
 
-<body>
+<body id="box" class="bg-sunday">
     <div class="title-container">
         <div class="title">
             <h1> Day Changer</h1>
@@ -43,11 +47,11 @@
     <div class="btn-box">
         <button class="btn-box-1" onclick="sunday()">Sunday</button>
 
-        <button class="btn-box-1" onclick="monday()"> Monday</button>
+        <button class="btn-box-2" onclick="monday()"> Monday</button>
 
-        <button class="btn-box-1" onclick="tuesday()"> Tuesday</button>
+        <button class="btn-box-3" onclick="tuesday()"> Tuesday</button>
 
-        <button class="btn-box-1" onclick="wednesday()"> Wesdnesday</button>
+        <button class="btn-box-4" onclick="wednesday()"> Wesdnesday</button>
     </div>
 
 

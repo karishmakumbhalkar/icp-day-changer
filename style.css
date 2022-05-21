@@ -7,13 +7,14 @@ body {
     background-color: peachpuff;
     height: 50px;
     filter: drop-shadow(0px 0px 10px red);
-    border-radius: 50px;
+    border-radius: 0 30px 0 30px;
     background-color: #FFE53B;
-    background-image: linear-gradient(147deg, #FFE53B 0%, #FFE53B 74%);
+    background-image: linear-gradient(147deg, #ecdb3e 0%, #FFE53B 74%);
 }
 
 .title {
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .img-container{
     margin-top: 50px;
@@ -54,13 +55,102 @@ body {
     padding: 10px;
     background-color: peachpuff;
     filter: drop-shadow(0px 0px 10px red);
-    background-color: #FA8BFF;
-    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
 }
 
 .btn-box-1:hover {
     background-color: #FA709A;
     border-radius: 0 10px 0 10px;
+    
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+.btn-box-2{
+    height: 50px;
+    justify-content: space-around;
+    border-radius: 10px 0 10px 0;
+    min-width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: peachpuff;
+    filter: drop-shadow(0px 0px 10px red);
+
     background-color: #FFE53B;
     background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
 }
+.btn-box-2:hover {
+    background-color: #FA709A;
+    border-radius: 0 10px 0 10px;
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    
+}
+.btn-box-3{
+    height: 50px;
+    justify-content: space-around;
+    border-radius: 10px 0 10px 0;
+    min-width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: peachpuff;
+    filter: drop-shadow(0px 0px 10px red);
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
+}
+.btn-box-3:hover {
+    background-color: #FA709A;
+    border-radius: 0 10px 0 10px;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+.btn-box-4{
+    height: 50px;
+    justify-content: space-around;
+    border-radius: 10px 0 10px 0;
+    min-width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: peachpuff;
+    filter: drop-shadow(0px 0px 10px red);
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+ 
+}
+.btn-box-4:hover {
+    background-color: #FA709A;
+    border-radius: 0 10px 0 10px;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+
+.bg-sunday{
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #ebd82d 52%, #2BFF88 90%);
+ 
+}
+.bg-monday{
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #0bda1c 52%, #2BFF88 90%);
+ 
+}
+.bg-tuesday{
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2c20db 52%, #da86be 90%);
+ 
+}
+
+.bg-wednesday{
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #ec56ba 52%, #cc639d 90%);
+ 
+}
+
